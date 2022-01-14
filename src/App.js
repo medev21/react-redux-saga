@@ -7,7 +7,8 @@ import DisplayBalances from './components/DisplayBalances';
 import { useEffect, useState } from 'react';
 import EntryLines from './components/EntryLines';
 import ModalEdit from './components/ModalEdit';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllEntries } from './actions/entries.actions';
 
 function App() {
 
@@ -39,6 +40,12 @@ function App() {
     setIncomeTotal(totalIncomes);
 
   }, [entries]);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getAllEntries());
+  },[]);
 
   return (
     <Container>
