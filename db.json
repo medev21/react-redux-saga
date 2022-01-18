@@ -1,29 +1,43 @@
 {
-    "entries": [{
-        "id": 1,
-        "description": "Work income redux"
-      },
-      {
-        "id": 2,
-        "description": "Water Bill redux"
-      },
-      {
-        "id": 3,
-        "description": "Rent"
-      },
-      {
-        "id": 4,
-        "description": "Power bill"
-      }
-    ],
-    "values": [{
+  "entries": [
+    {
+      "id": 1,
+      "description": "Work income redux"
+    },
+    {
+      "id": 2,
+      "description": "Water Bill redux"
+    },
+    {
+      "id": 3,
+      "description": "Rent"
+    },
+    {
+      "id": 4,
+      "description": "Power bill"
+    },
+    {
+      "id": "fe155c56-ddca-4806-ad73-fce457e4358c",
+      "description": "desk"
+    },
+    {
+      "id": "cbd9f9ac-9c69-461a-b880-b39db522e726",
+      "description": "TESTING"
+    },
+    {
+      "id": "843cb343-3fe4-440c-8e5b-5bda81744864",
+      "description": "helo"
+    }
+  ],
+  "values": [
+    {
       "id": 1,
       "value": 1000,
       "isExpense": false
     },
     {
       "id": 2,
-      "value": 20.00,
+      "value": 20,
       "isExpense": true
     },
     {
@@ -35,5 +49,21 @@
       "id": 4,
       "value": 50,
       "isExpense": true
-    }]
+    },
+    {
+      "id": "fe155c56-ddca-4806-ad73-fce457e4358c",
+      "isExpense": true,
+      "value": "10"
+    },
+    {
+      "id": "cbd9f9ac-9c69-461a-b880-b39db522e726",
+      "isExpense": true,
+      "value": "45"
+    },
+    {
+      "id": "843cb343-3fe4-440c-8e5b-5bda81744864",
+      "isExpense": true,
+      "value": "45"
+    }
+  ]
 }
